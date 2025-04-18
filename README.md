@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Realistic Snake Game
 
-## Getting Started
+A modern take on the classic Snake game with beautiful visuals and multiple game modes.
 
-First, run the development server:
+![Snake Game Screenshot](screenshot.jpg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Play Now!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎮 [Play in Your Browser](https://your-username.github.io/snake-game/web/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Multiple Game Modes**: Classic, Time Trial, Obstacle Course, and Survival modes
+- **Beautiful Visuals**: Particle effects, dynamic lighting, and smooth animations
+- **Touch & Keyboard Support**: Play on desktop or mobile devices
+- **Powerups & Special Food**: Collect different types of food for special abilities
+- **High Score Tracking**: Try to beat your personal best
 
-## Learn More
+## Downloads
 
-To learn more about Next.js, take a look at the following resources:
+- [Windows Version](https://your-username.github.io/snake-game/downloads/windows/SnakeGame-Windows.zip)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How to Play
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Keyboard Controls
+- **Arrow Keys** or **WASD**: Control the snake's direction
+- **P**: Pause/unpause the game
+- **M**: Mute/unmute sound effects
+- **ESC**: Return to the main menu
+- **SPACE**: Restart when game over
 
-## Deploy on Vercel
+### Touch Controls
+- Tap the on-screen directional buttons to move
+- Use the pause button in the top-right
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This game was built with Python and Pygame. The web version uses Pygbag to compile to WebAssembly.
+
+## License
+
+[MIT License](LICENSE) 

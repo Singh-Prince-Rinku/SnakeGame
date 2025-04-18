@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realistic Snake Game - Download Now!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(135deg, #2c3e50, #27ae60);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 2rem 0;
+        }
+        .feature {
+            flex: 1;
+            min-width: 300px;
+            margin: 1rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .cta {
+            text-align: center;
+            padding: 3rem 0;
+        }
+        .btn {
+            display: inline-block;
+            background: #27ae60;
+            color: white;
+            padding: 0.8rem 1.8rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background: #2ecc71;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Realistic Snake Game</h1>
+            <p>A modern take on the classic Snake game with beautiful visuals and multiple game modes</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <img src="screenshot.jpg" alt="Snake Game Screenshot" id="screenshot">
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h2>🎮 Multiple Game Modes</h2>
+                <p>Choose from Classic, Time Trial, Obstacle Course, and Survival modes for varied gameplay experiences!</p>
+            </div>
+            <div class="feature">
+                <h2>✨ Stunning Visual Effects</h2>
+                <p>Enjoy beautiful particle effects, dynamic lighting, and smooth animations for an immersive experience.</p>
+            </div>
+            <div class="feature">
+                <h2>📱 Touch & Keyboard Support</h2>
+                <p>Play with keyboard or touch controls - works great on both desktop and mobile devices!</p>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h2>Ready to Play?</h2>
+            <p>Download the game for your platform:</p>
+            <p>
+                <a href="downloads/SnakeGameSetup.exe" class="btn">Download for Windows</a>
+            </p>
+            <p>
+                <a href="downloads/SnakeGame.apk" class="btn">Download for Android</a>
+            </p>
+            <p>
+                <a href="play/" class="btn">Play in Browser</a>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Snake Game. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Add a placeholder image if screenshot.jpg doesn't exist yet
+        document.getElementById('screenshot').onerror = function() {
+            this.src = 'https://via.placeholder.com/800x450/27ae60/ffffff?text=Snake+Game+Screenshot';
+        };
+    </script>
+</body>
+</html> 
