@@ -2,7 +2,7 @@
 
 A modern take on the classic Snake game with beautiful visuals and multiple game modes.
 
-![Snake Game Screenshot](screenshot.jpg)
+
 
 ## Play Now!
 
